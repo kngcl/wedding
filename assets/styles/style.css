@@ -13,14 +13,14 @@
   justify-content: center;
   align-items: center;
   line-height: 2;
-  font-size: 2.5vw;
+  font-size: 30px;
   letter-spacing: 2px;
   color: #fff;
   filter: grayscale(50%);
 }
 
 .home-paragraph {
-  font-size: 1.5vw;
+  font-size: 22px;
   letter-spacing: 10px;    
 }
 
@@ -38,17 +38,14 @@
 
 .jane-john-heading {
   text-align: center;
-  font-size: 2vw;
+  font-size: 30px;
   padding: 2.5rem;
   color: #757575;
 }
 
-.jane-john-image {
-  width: 100%;
-}
-
 .jane-john-picture {
   border-radius: 10px;
+  width: 100%;
 }
 
 .jane-john-paragraph {
@@ -66,7 +63,7 @@
 
 .jane-john-button a {
   padding: 1.5rem;
-  font-size: 1.3vw;
+  font-size: 20px;
   background-color: #000;
   color: #fff;
   text-decoration: none;
