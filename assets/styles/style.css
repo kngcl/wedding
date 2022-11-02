@@ -1,5 +1,5 @@
 * {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   margin: 0;
 }
 
@@ -46,7 +46,7 @@
 
 .home-paragraph {
   font-size: 22px;
-  letter-spacing: 1vw;    
+  letter-spacing: 1vw;
 }
 
 /* Jane-John */
@@ -83,7 +83,7 @@
   text-align: center;
 }
 
-.jane-john-button p {
+.jane-john-button-p {
   padding: 1.5rem;
 }
 
@@ -116,13 +116,13 @@
   color: #fff;
 }
 
-.invite p {
- font-size: 22px;
+.invite-p {
+  font-size: 22px;
 }
 
 /* wedding section */
 .wedding {
-  background-color: #ffdddd;
+  background-color: #fdd;
   filter: grayscale(50%);
 }
 
@@ -154,12 +154,12 @@
 
 .wedding-time-paragraph,
 .wedding-location-paragraph {
-  font-size: 25px;  
+  font-size: 25px;
 }
 
 /* rsvp */
 .rsvp {
-  background-color: #ffdddd;
+  background-color: #fdd;
   text-align: center;
   padding: 5rem;
   line-height: 2.3;
@@ -201,10 +201,10 @@ footer {
 
 footer .footer-nav {
   color: #fff;
-} 
+}
 
 /* responsiveness */
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
   .nav-heading {
     display: none;
   }
@@ -213,8 +213,9 @@ footer .footer-nav {
     display: flex;
     flex-direction: column;
   }
+
   .rsvp {
-    background-color: #ffdddd;
+    background-color: #fdd;
     text-align: center;
     padding: 1rem;
     line-height: 2;
@@ -223,13 +224,13 @@ footer .footer-nav {
   .rsvp-heading {
     font-size: 20px;
   }
-  
+
   .rsvp-paragraph {
     font-size: 25px;
     letter-spacing: 1px;
     padding-bottom: 5px;
   }
-  
+
   .rsvp .rsvp-button {
     padding: 1rem;
     font-size: 20px;
