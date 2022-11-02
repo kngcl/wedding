@@ -129,3 +129,36 @@
 .wedding-location-paragraph {
   font-size: 25px;  
 }
+
+.rsvp {
+  background-color: #ffdddd;
+  text-align: center;
+  padding: 5rem;
+  line-height: 2.3;
+}
+
+.rsvp-heading {
+  font-size: 40px;
+}
+
+.rsvp-paragraph {
+  font-size: 25px;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+}
+
+.rsvp .rsvp-button {
+  padding: 1rem 4rem;
+  font-size: 20px;
+  background-color: #f44336;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.rsvp .rsvp-button:hover {
+  background-color: #757575;
+  color: #000;
+}
+
+
