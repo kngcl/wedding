@@ -23,3 +23,55 @@
   font-size: 1.5vw;
   letter-spacing: 10px;    
 }
+
+/* Jane-John */
+.jane-john {
+  background-color: #ffdddd;
+  filter: grayscale(50%);
+}
+
+.jane-john-content {
+  max-width: 904px;
+  margin: auto;
+  line-height: 2;
+}
+
+.jane-john-heading {
+  text-align: center;
+  font-size: 2vw;
+  padding: 2.5rem;
+  color: #757575;
+}
+
+.jane-john-image {
+  width: 100%;
+}
+
+.jane-john-picture {
+  border-radius: 10px;
+}
+
+.jane-john-paragraph {
+  padding-top: 50px;
+}
+
+.jane-john-button {
+  padding: 1rem;
+  text-align: center;
+}
+
+.jane-john-button p {
+  padding: 1.5rem;
+}
+
+.jane-john-button a {
+  padding: 1.5rem;
+  font-size: 1.3vw;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.jane-john-button a:hover {
+  background-color: #757575;
+}
