@@ -72,3 +72,24 @@
 .jane-john-button a:hover {
   background-color: #757575;
 }
+
+/* invite section */
+.invite {
+  background-image: url("https://www.w3schools.com/w3images/flowers.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 2;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.invite p {
+ font-size: 22px;
+}
