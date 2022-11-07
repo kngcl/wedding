@@ -29,9 +29,9 @@ Knowledge about:
 
 ## steps
 
-- $ git clone `https://github.com/kngcl/wedding/tree/feature/header`
+- $ git clone `https://github.com/kngcl/wedding`
 - $ `cd wedding`
-- $ `git checkout feature`
+- $ `git checkout feature/header`
 
 ## Start App
 
