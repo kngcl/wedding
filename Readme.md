@@ -5,35 +5,36 @@ this project is all about online invitation.
 ## App
 
 ![Home](assets/images/home.png)
-![Wedding](assets/images/wedding.png)
-![jane-john](assets/images/jane-john.png)
-![rsvp](assets/images/rsvp.png)
+![about-Wedding](assets/images/wedding.png)
 
 ### Built With
 
 - HTML
 - CSS
+  
+### Prerequisites
+
+Knowledge about:
+
+- HTML
+- CSS
+- Google chrome
 
 ## Clone project
 
 - To get a local copy up and running follow these simple example steps.
 - Clone this repository with `git@github.com:kngcl/wedding.git` using your terminal.
-- Change to the project directory by entering: cd food in the terminal.
+- Change to the project directory by entering: cd wedding in the terminal.
 
 ## steps
 
-- $ git clone `git@github.com:kngcl/wedding.git`
+- $ git clone `https://github.com/kngcl/wedding/tree/feature/header`
 - $ `cd wedding`
 - $ `git checkout feature`
 
 ## Start App
 
-- run `npm install`
-- run `npm start` in your CLI
-
-## Test
-
-- run `npm run test` to run test
+- run by opening the link of the project in the url of the browser
 
 ## Author
 
