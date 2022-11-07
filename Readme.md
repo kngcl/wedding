@@ -1,6 +1,7 @@
 # wedding project
 
 this project is all about online invitation.
+The landing page has five sections headers, home, wedding, RSVP, jane-john and footer sections. The landing page actually serves as an invitation to people.
 
 ## App
 
