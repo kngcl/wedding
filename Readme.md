@@ -34,7 +34,7 @@ Knowledge about:
 
 ## Start App
 
-- run by opening the link of the project in the url of the browser
+- run by opening the index.html in the browser
 
 ## Author
 
