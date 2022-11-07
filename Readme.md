@@ -42,6 +42,6 @@ Knowledge about:
 
 - GitHub: [@kngcl](git@github.com:kngcl/wedding.git)
 
-## 📝 License 
+## 📝 License
 
 This project is [w3school](./LICENSE) licensed.
