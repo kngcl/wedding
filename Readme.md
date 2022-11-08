@@ -29,7 +29,7 @@ Knowledge about:
 
 ## steps
 
-- $ git clone `https://github.com/kngcl/wedding`
+- $ git clone `git@github.com:kngcl/wedding.git`
 - $ `cd wedding`
 - $ `git checkout feature/header`
 
