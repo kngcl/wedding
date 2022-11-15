@@ -1,0 +1,242 @@
+* {
+  font-family: Raleway, sans-serif;
+  margin: 0;
+}
+
+/* nav-bar */
+.nav-heading {
+  position: fixed;
+  background-image: linear-gradient(#ffffffd2, #fffefebe);
+  columns: 4;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+  bottom: 0;
+}
+
+.nav-heading a {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-heading p {
+  padding: 1rem;
+}
+
+.nav-heading p:hover {
+  background-color: #a8a8a8;
+}
+
+/* home */
+.home {
+  background-image: url("https://www.w3schools.com/w3images/wedding_couple.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #fff;
+  filter: grayscale(50%);
+}
+
+.home-paragraph {
+  font-size: 22px;
+  letter-spacing: 1vw;
+}
+
+/* Jane-John */
+.jane-john {
+  background-color: #fdd;
+  filter: grayscale(50%);
+}
+
+.jane-john-content {
+  max-width: 904px;
+  margin: auto;
+  line-height: 2;
+  padding: 1rem;
+}
+
+.jane-john-heading {
+  text-align: center;
+  font-size: 30px;
+  padding: 2.5rem;
+  color: #757575;
+}
+
+.jane-john-picture {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.jane-john-paragraph {
+  padding-top: 50px;
+}
+
+.jane-john-button {
+  padding: 1rem;
+  text-align: center;
+}
+
+.jane-john-button-p {
+  padding: 1.5rem;
+}
+
+.jane-john-button a {
+  padding: 1.5rem;
+  font-size: 20px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.jane-john-button a:hover {
+  background-color: #757575;
+}
+
+/* invite section */
+.invite {
+  background-image: url("https://www.w3schools.com/w3images/flowers.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 2;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.invite-p {
+  font-size: 22px;
+}
+
+/* wedding section */
+.wedding {
+  background-color: #fdd;
+  filter: grayscale(50%);
+}
+
+.wedding-heading {
+  text-align: center;
+  font-size: 30px;
+  padding: 2.5rem;
+  color: #757575;
+}
+
+.wedding-content {
+  max-width: 904px;
+  margin: auto;
+  line-height: 2;
+  text-align: center;
+  padding: 1rem;
+}
+
+.wedding-picture {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.wedding-details {
+  columns: 2;
+  padding: 6vw;
+  line-height: 3;
+}
+
+.wedding-time-paragraph,
+.wedding-location-paragraph {
+  font-size: 25px;
+}
+
+/* rsvp */
+.rsvp {
+  background-color: #fdd;
+  text-align: center;
+  padding: 5rem;
+  line-height: 2.3;
+}
+
+.rsvp-heading {
+  font-size: 40px;
+}
+
+.rsvp-paragraph {
+  font-size: 25px;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+}
+
+.rsvp .rsvp-button {
+  padding: 1rem 4rem;
+  font-size: 20px;
+  background-color: #f44336;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.rsvp .rsvp-button:hover {
+  background-color: #757575;
+  color: #000;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+}
+
+footer .footer-nav {
+  color: #fff;
+}
+
+/* responsiveness */
+@media screen and (max-width: 425px) {
+  .nav-heading {
+    display: none;
+  }
+
+  .wedding-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rsvp {
+    background-color: #fdd;
+    text-align: center;
+    padding: 1rem;
+    line-height: 2;
+  }
+
+  .rsvp-heading {
+    font-size: 20px;
+  }
+
+  .rsvp-paragraph {
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+  }
+
+  .rsvp .rsvp-button {
+    padding: 1rem;
+    font-size: 20px;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+}
